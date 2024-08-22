@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CUDHAO</title>
-    <link rel="stylesheet" href="css/analysis.css">
+    <link rel="stylesheet" href="css/systemCudhao.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -35,44 +35,62 @@
                 <a href="#" class="sub-item">Barangay 03</a>
             </div>
         </div>
-        <div class="item"><a href="#"><i class="fas fa-chart-bar"></i>Reports</a></div>
-        <div class="item"><a href="#"><i class="fas fa-exclamation-triangle"></i>Penalties</a></div>
-        <div class="item"><a href="#"><i class="fas fa-clipboard"></i>Analysis</a></div>
-        <div class="item"><a href="#"><i class="fas fa-address-book"></i>Accounts</a></div>
+        <div class="item"><a href="{{url('reports')}}"><i class="fas fa-chart-bar"></i>Reports</a></div>
+        <div class="item"><a href="{{url('penalties')}}"><i class="fas fa-exclamation-triangle"></i>Penalties</a></div>
+        <div class="item"><a href="{{url('analysis')}}"><i class="fas fa-clipboard"></i>Analysis</a></div>
+        <div class="item"><a href="{{url('accounts')}}"><i class="fas fa-address-book"></i>Accounts</a></div>
     </div>
 </div>
 
-<!-- main content -->
 <main>
     <section>
         <div class="main">
             <div class="cards">
-            <button class="btn">Overall</button>
-                <div class="dropdown">
-                        <button class="dropbtn">Barangay</button>
-                        <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">300</div>
+                        <div class="card-name">ISF</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">300</div>
+                        <div class="card-name">ISF</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">300</div>
+                        <div class="card-name">ISF</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">300</div>
+                        <div class="card-name">ISF</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
                 </div>
             </div>
             <div class="charts">
                 <div class="chart">
-                    <h2>ISF Growth per Year</h2>
+                    <h2>Total ISF</h2>
                     <canvas id="myChart"></canvas>
                 </div>
                 <div class="chart">
                     <h2>Total ISF</h2>
-                    <canvas id="myChart2" ></canvas>
-                </div>
-                <div class="chart">
-                    <h2>Total ISF</h2>
-                    <canvas id="myChart" ></canvas>
-                </div>
-                <div class="chart">
-                    <h2>Total ISF</h2>
-                    <canvas id="myChart" ></canvas>
+                    <canvas id="myChart"></canvas>
                 </div>
             </div>
         </div>
@@ -82,8 +100,8 @@
     
 
     <!-- javascript for charts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-    <script src="js/analysis.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="js/dashboard.js"></script>
     <!-- javascript for animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

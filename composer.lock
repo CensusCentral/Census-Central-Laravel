@@ -684,16 +684,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.9.1",
+            "version": "7.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "a629e5b69db96eb4939c1b34114130077dd4c6fc"
+                "reference": "d281ed313b989f213357e3be1a179f02196ac99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a629e5b69db96eb4939c1b34114130077dd4c6fc",
-                "reference": "a629e5b69db96eb4939c1b34114130077dd4c6fc",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d281ed313b989f213357e3be1a179f02196ac99b",
+                "reference": "d281ed313b989f213357e3be1a179f02196ac99b",
                 "shasum": ""
             },
             "require": {
@@ -790,7 +790,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.9.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.9.2"
             },
             "funding": [
                 {
@@ -806,7 +806,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-19T16:19:57+00:00"
+            "time": "2024-07-24T11:22:20+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1485,16 +1485,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "0026475f5c9a104410ae824cb5a4d63fa3bdb1df"
+                "reference": "ac815920de0eff6de947eac0a6a94e5ed0fb147c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/0026475f5c9a104410ae824cb5a4d63fa3bdb1df",
-                "reference": "0026475f5c9a104410ae824cb5a4d63fa3bdb1df",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/ac815920de0eff6de947eac0a6a94e5ed0fb147c",
+                "reference": "ac815920de0eff6de947eac0a6a94e5ed0fb147c",
                 "shasum": ""
             },
             "require": {
@@ -1587,7 +1587,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-22T18:18:14+00:00"
+            "time": "2024-07-24T12:52:09+00:00"
         },
         {
             "name": "league/config",
@@ -5968,16 +5968,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.30.2",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887"
+                "reference": "48d89608a3bb5be763c9bb87121d31e7da27c1cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887",
-                "reference": "f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/48d89608a3bb5be763c9bb87121d31e7da27c1cb",
+                "reference": "48d89608a3bb5be763c9bb87121d31e7da27c1cb",
                 "shasum": ""
             },
             "require": {
@@ -6027,7 +6027,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-07-05T16:01:51+00:00"
+            "time": "2024-07-22T14:36:50+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -7828,16 +7828,16 @@
         },
         {
             "name": "spatie/flare-client-php",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "097040ff51e660e0f6fc863684ac4b02c93fa234"
+                "reference": "180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/097040ff51e660e0f6fc863684ac4b02c93fa234",
-                "reference": "097040ff51e660e0f6fc863684ac4b02c93fa234",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122",
+                "reference": "180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122",
                 "shasum": ""
             },
             "require": {
@@ -7855,7 +7855,7 @@
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
-                "spatie/phpunit-snapshot-assertions": "^4.0|^5.0"
+                "spatie/pest-plugin-snapshots": "^1.0|^2.0"
             },
             "type": "library",
             "extra": {
@@ -7885,7 +7885,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.7.0"
+                "source": "https://github.com/spatie/flare-client-php/tree/1.8.0"
             },
             "funding": [
                 {
@@ -7893,7 +7893,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-12T14:39:14+00:00"
+            "time": "2024-08-01T08:27:26+00:00"
         },
         {
             "name": "spatie/ignition",

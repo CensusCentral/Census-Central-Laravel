@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CUDHAO</title>
-    <link rel="stylesheet" href="accountsStyles.css">
+    <link rel="stylesheet" href="css/accountsStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -26,17 +26,17 @@
             <div class="item"><a href="systemCudhao.html"><i class="fas fa-desktop"></i>Dashboard</a></div>
             <div class="item"><a href="#"><i class="fas fa-th"></i>Census Forms</a></div>
             <div class="item">
-                <a class="sub-btn"><i class="fas fa-table"></i>Barangay<i class="fas fa-angle-right dropdown"></i></a>
-                <div class="sub-menu">
-                    <a href="#" class="sub-item">Barangay 01</a>
-                    <a href="#" class="sub-item">Barangay 02</a>
-                    <a href="#" class="sub-item">Barangay 03</a>
-                </div>
+            <a class="sub-btn"><i class="fas fa-table"></i>Barangay<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="{{url('barangay')}}" class="sub-item">Barangay 01</a>
+                <a href="#" class="sub-item">Barangay 02</a>
+                <a href="#" class="sub-item">Barangay 03</a>
             </div>
-            <div class="item"><a href="#"><i class="fas fa-chart-bar"></i>Reports</a></div>
-            <div class="item"><a href="#"><i class="fas fa-exclamation-triangle"></i>Penalties</a></div>
-            <div class="item"><a href="#"><i class="fas fa-clipboard"></i>Analysis</a></div>
-            <div class="item"><a href="#"><i class="fas fa-address-book"></i>Accounts</a></div>
+        </div>
+        <div class="item"><a href="{{url('reports')}}"><i class="fas fa-chart-bar"></i>Reports</a></div>
+        <div class="item"><a href="{{url('penalties')}}"><i class="fas fa-exclamation-triangle"></i>Penalties</a></div>
+        <div class="item"><a href="{{url('analysis')}}"><i class="fas fa-clipboard"></i>Analysis</a></div>
+        <div class="item"><a href="{{url('accounts')}}"><i class="fas fa-address-book"></i>Accounts</a></div>
         </div>
     </div>
 
@@ -117,7 +117,7 @@
         </div>
     </div>
 
-    <script src="accountsScript.js"></script>
+    <script src="js/accountsScript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
